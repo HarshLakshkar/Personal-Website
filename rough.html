@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Include Typed.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <style>
+        /* Add any additional CSS styles here */
+        
+    </style>
+
+</head>
+<body>
+
+    <div class="home-row">
+        <h1>Hi, <br>Welcome <br>to the<span></span></h1>
+        <h2><span class="auto-input">Portfolio</span></h2>
+    </div>
+
+
+    <script>
+        // Initialize Typed.js
+        document.addEventListener('DOMContentLoaded', function(){
+            let typed = new Typed('.auto-input', {
+                strings: ['Portfolio!', 'Portfolio!', 'Portfolio!'],
+                typeSpeed: 50,
+                backSpeed: 100,
+                backDelay: 2000,
+                loop: true
+            });
+        });
+    </script>
+
+</body>
+</html>
